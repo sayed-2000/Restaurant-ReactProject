@@ -1,0 +1,54 @@
+.blokCard img {
+    max-width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.blokCard h5 {
+    color: #000;
+    font-weight: 500;
+    padding: 15px 5px 0;
+}
+
+.blokCard span {
+    display: block;
+    margin-top: -5px;
+    padding: 0 5px;
+    color: #000;
+}
+
+.blokCard .price {
+ display: flex;
+ font-size: 24px;
+ font-weight: bold;
+ padding: 14px 0px;
+ border-bottom: 1px solid #ccc;
+}
+
+.blokCard .price span:first-of-type {
+ color: #a82d49;
+}
+
+.blokCard .price span:last-of-type {
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.blokCard button {
+    display: block;
+    margin: 15px 5px !important;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    background-color: #a82d49;
+    border: 2px solid #a82d49;
+    text-align: center;
+    margin: 20px 15px 20px 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.4s ease-in-out ;
+}
+
+.blokCard button:hover {
+    background-color: #fff;
+    color: #a82d49;
+}

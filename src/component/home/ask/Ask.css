@@ -1,0 +1,33 @@
+.ask {
+    padding: 72px 0;
+    background-color: #FFf;
+}
+
+.ask .container div.row:first-of-type {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ask .container div.row:first-of-type h1 {
+    font-weight: bold;
+    color: #43121d;
+}
+
+.ask .container div.row:last-of-type div {
+    margin-bottom: 15px;
+}
+
+.ask .container div.row:last-of-type h4  {
+    color: #43121d;
+}
+
+
+.ask .container div.row:last-of-type h4 span {
+  color: #a82c48;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.ask .container div.row:last-of-type p {
+    color: #555;
+}

@@ -1,0 +1,75 @@
+.subscribe {
+    background-color: #fff;
+    height: 300px;
+    padding: 30px 0 20px;
+    margin-bottom: 30px;
+}   
+
+.subscribe .container .row:first-of-type div {
+    text-align: center;
+}
+
+
+.subscribe .container .row:first-of-type h2 {
+   color: #43121d;
+   font-weight: bold;
+   line-height: 39px;
+}
+
+.subscribe .container .row:first-of-type p {
+   color: #555;
+   letter-spacing: 0.7px;
+   padding: 10px 0;
+}
+
+
+
+.subscribe .container .row:last-of-type {
+    display: flex;
+    justify-content: center;
+} 
+
+.subscribe .container .row:last-of-type input {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #e5e5e5;
+    padding: 10px 15px;
+    margin-right: 30px;
+}
+
+.subscribe .container .row:last-of-type input:focus {
+    outline: none;
+}
+
+.subscribe .container .row:last-of-type button {
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    padding: 10px 15px;
+    background-color: #a82d49;
+    border: 2px solid #a82d49;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out ;
+}
+
+.subscribe .container .row:last-of-type button:hover {
+    background-color: #fff;
+    color: #a82d49;
+}
+
+@media (max-width:735px) {
+    .subscribe .container .row:last-of-type {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    .subscribe .container .row:last-of-type button {
+        width: 300px;
+    }
+
+    .subscribe .container .row:last-of-type input {
+        margin-right: 0px;
+    }
+}

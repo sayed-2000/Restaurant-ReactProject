@@ -1,0 +1,211 @@
+.numbers {
+    background-color: #a82d49;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.numbers .row {
+    margin: 10px 0;
+}
+
+.numbers h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.numbers h6 {
+    text-transform:uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+/* scc to the pride section  */
+.pride {
+    background-color: transparent;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.pride img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pride h2,.ingredients h2  {
+    display: block;
+    width: 80%;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #43121d;
+    line-height: 45px;
+}
+
+.pride p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #555555;
+}
+
+.pride button a,.ingredients button a {
+    display: block;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+}
+
+.pride button,.ingredients button {
+    width: 150px;
+    height: 50px;
+    background-color: #a82d49;
+    border: 2px solid #a82d49;
+    text-align: center;
+    margin: 20px 15px 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out ;
+}
+
+.pride button:hover,.ingredients button:hover {
+    background-color: #fff;
+    color: #a82d49;
+}
+
+.pride button:hover a,.ingredients button:hover a {
+    color: #a82d49;
+}
+
+
+
+/* css to the ingredients section  */
+.ingredients {
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.ingredients h2 {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #43121d;
+    line-height: 45px;
+}
+
+.ingredients p,.parallax p {
+    width: 93%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+
+.ingredients img {
+    max-width: 100%;
+}
+
+.ingredients ul {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.ingredients li {
+    color: #555555;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.ingredients li span {
+    color: #a82d49;
+}
+
+/* scc to the parallax section  */
+.parallax {
+    background-image: url('../../img/parallax.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 450px   ;
+    height: auto;
+    padding-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.parallax h1 {
+    display: block;
+    color: #a82d49;
+    padding-top: 20px;
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.parallax p {
+    font-size: 19px;
+ display: block;
+ width: 50%;
+ margin: auto;
+ text-align: center;
+ padding: 20px 10px 0;
+}
+
+.parallax h2 {
+    display: block;
+    color: #43121d;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.parallax h2 a {
+    color: #43121d;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.parallax h2 a:hover {
+    color: #a82d49;
+}
+
+/* css to the explore section  */
+.explore {
+    padding: 80px 0;
+}
+
+.explore h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.explore p {
+    display: block;
+    margin: auto;
+    width: 80%;
+    color: #555555;
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+}

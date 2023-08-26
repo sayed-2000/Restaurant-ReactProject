@@ -1,0 +1,41 @@
+.footer {
+    background-color: #a82d49;
+    padding: 40px 0;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 19px;
+}
+
+.footer .links a {
+    color: #fff;
+}
+
+.footer .icons {
+    width: 100%;
+    display: flex;
+    gap: 0 34px;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer .icons span {
+    cursor: pointer;
+}
+
+.footer .copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font: 16px;
+    letter-spacing: 0.7px;
+    margin-top: 10px;
+}
+
